@@ -1,0 +1,32 @@
+.place {
+  margin-bottom: 80px;
+  color: #fff;
+  display: grid;
+  grid-template:
+    "title author"
+    "image paragraph"
+    "button paragraph"
+    ". paragraph";
+  grid-column-gap: 40px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 28px;
+    margin-bottom: 72px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "author"
+      "image"
+      "paragraph"
+      "button";
+    margin-bottom: 50px;
+  }
+}

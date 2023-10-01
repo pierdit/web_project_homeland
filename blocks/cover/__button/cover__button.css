@@ -1,0 +1,26 @@
+.cover__button {
+  max-width: 137px;
+  max-height: 48px;
+  font-size: 18px;
+  line-height: 1.22;
+  padding: 13px 20px;
+  background-color: #0278fe;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.2s linear;
+  pointer-events: auto;
+}
+.cover__button:hover {
+  background-color: #0063d2;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .cover__button {
+    min-width: 137px;
+    min-height: 48px;
+    padding: 13px 20px;
+  }
+}

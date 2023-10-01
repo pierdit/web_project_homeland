@@ -1,0 +1,12 @@
+.footer__credits {
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+}
+@media screen and (max-width: 600px) {
+  .footer__credits {
+    line-height: 1;
+  }
+}
