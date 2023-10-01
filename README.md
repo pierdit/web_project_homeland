@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Tripleten web_project_homeland
 =======
 # Web Project 3
@@ -18,5 +18,4 @@ The project is to create a responsive webpage about hometown. All elements displ
 
 Make website responsive in screen size: 1280, 760, and 320px.
 
-[Practicum Art Gallery - Widhi Pieradita](https://pierdit.github.io/web_project_3_id/)
->>>>>>> 3acfa33 (Added files for project 4)
+[Practicum Art Gallery - Widhi Pieradita](https://pierdit.github.io/web_project_homeland/)
